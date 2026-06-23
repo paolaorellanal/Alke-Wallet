@@ -62,6 +62,10 @@ Ingeniería Informática Multimedia
 
 Bootcamp Desarrollo Web
 
+## Rama feature/depositos
+
+Esta rama fue utilizada para desarrollar y documentar la funcionalidad de depositos de Alke Wallet.
+
 ## Rama feature/transacciones
 
 Esta rama fue utilizada para desarrollar y documentar la funcionalidad de transacciones de Alke Wallet
