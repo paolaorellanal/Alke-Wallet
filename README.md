@@ -69,4 +69,4 @@ Esta rama fue utilizada para desarrollar y documentar la funcionalidad de inicio
 
 ## Rama feature/transacciones
 
-Esta rama fue utilizada para desarrollar y documentar la funcionalidad de transacciones de Alke Wallet.
+Esta rama fue utilizada para desarrollar y documentar la funcionalidad de transacciones de Alke Wallet
