@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login-body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e9f1ff, #f8f9fa);
+    display: flex;
+    align-items: center;
+}
+
+.app-body {
+    min-height: 100vh;
+    background: #f4f7fb;
+    padding-top: 40px;
+}
+
+.login-card {
+    max-width: 430px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 18px;
+    background: #ffffff;
+}
+
+.wallet-card {
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 18px;
+    background: #ffffff;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.contact-form {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.list-group-item {
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+

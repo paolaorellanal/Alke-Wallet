@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Menú</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="app-body">
+
+    <div class="container">
+        <div class="wallet-card shadow">
+            <p class="text-center text-muted">
+                Bienvenida a Alke Wallet. Administra tu dinero de forma simple y segura.
+            </p>
+            <h2 class="text-center text-primary">Menú Principal</h2>
+                
+            <div class="alert alert-success text-center mt-3">
+                Saldo actual: <strong id="saldoMenu">$0</strong>
+            </div>
+
+            <div id="mensajeMenu"></div>
+
+            <button id="btnDepositar" class="btn btn-primary btn-block">Depositar</button>
+
+            <button id="btnEnviar" class="btn btn-warning btn-block">Enviar Dinero</button>
+
+            <button id="btnMovimientos" class="btn btn-info btn-block">Últimos Movimientos</button>
+
+            <a href="index.html" class="btn btn-secondary btn-block mt-3">Cerrar sesión</a>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <footer class="text-center mt-5 mb-3 text-muted">
+        © 2026 Alke Wallet - Desarrollado por Paola Orellana Lagos
+    </footer>
+
+</body>
+</html>

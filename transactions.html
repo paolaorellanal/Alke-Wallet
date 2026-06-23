@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Últimos Movimientos</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="app-body">
+
+    <div class="container">
+
+        <div class="wallet-card shadow">
+
+            <h2 class="text-center text-primary">Últimos Movimientos</h2>
+
+            <div class="form-group mt-3">
+                <label>Filtrar por tipo de movimiento</label>
+
+                <select id="filtroMovimientos" class="form-control">
+                    <option value="todos">Todos</option>
+                    <option value="deposito">Depósitos</option>
+                    <option value="transferencia">Transferencias</option>
+                    <option value="compra">Compras</option>
+                </select>
+            </div>
+
+            <ul id="listaMovimientos" class="list-group mt-3"></ul>
+
+            <a href="menu.html" class="btn btn-secondary btn-block mt-4">
+                Volver al Menú Principal
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <footer class="text-center mt-5 mb-3 text-muted">
+        © 2026 Alke Wallet - Desarrollado por Paola Orellana Lagos
+    </footer>
+
+</body>
+</html>

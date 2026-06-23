@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Enviar Dinero</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="app-body">
+
+    <div class="container">
+
+        <div class="wallet-card shadow">
+
+            <h2 class="text-center text-primary">Enviar Dinero</h2>
+
+            <div id="mensajeEnvio"></div>
+
+            <form id="buscarForm">
+                <div class="form-group">
+                    <label>Buscar contacto por nombre o alias</label>
+                    <input type="text" id="buscarContacto" class="form-control" placeholder="Ejemplo: Juan o jperez">
+                </div>
+
+                <button type="submit" class="btn btn-info btn-block">
+                    Buscar Contacto
+                </button>
+            </form>
+
+            <div class="form-group mt-3">
+                <label>Agenda de contactos</label>
+                <select id="contactos" class="form-control">
+                    <option value="">Seleccione un contacto</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Monto a enviar</label>
+                <input type="number" id="montoEnvio" class="form-control" placeholder="Ingrese el monto">
+            </div>
+
+            <button id="btnEnviarDinero" class="btn btn-warning btn-block" style="display:none;">
+                Enviar dinero
+            </button>
+
+            <hr>
+
+            <button id="btnMostrarFormulario" class="btn btn-success btn-block">
+                Agregar nuevo contacto
+            </button>
+
+            <div id="formContacto" class="contact-form mt-3" style="display:none;">
+
+                <h5>Nuevo contacto</h5>
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+                        <label>Nombre y apellido</label>
+                        <input type="text" id="nombreContacto" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Número de CBU</label>
+                        <input type="text" id="cbuContacto" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Alias</label>
+                        <input type="text" id="aliasContacto" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Nombre del Banco</label>
+                        <input type="text" id="bancoContacto" class="form-control">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Guardar contacto
+                    </button>
+
+                    <button type="button" id="btnCancelar" class="btn btn-secondary btn-block">
+                        Cancelar
+                    </button>
+
+                </form>
+
+            </div>
+
+            <a href="menu.html" class="btn btn-secondary btn-block mt-3">
+                Volver al Menú Principal
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <footer class="text-center mt-5 mb-3 text-muted">
+        © 2026 Alke Wallet - Desarrollado por Paola Orellana Lagos
+    </footer>
+</body>
+</html>
