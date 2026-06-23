@@ -65,3 +65,7 @@ Bootcamp Desarrollo Web
 ## Rama feature/transacciones
 
 Esta rama fue utilizada para desarrollar y documentar la funcionalidad de transacciones de Alke Wallet
+
+## Rama feature/login
+
+Esta rama fue utilizada para desarrollar y documentar la funcionalidad de inicio de sesión de Alke Wallet.
